@@ -10,7 +10,7 @@ namespace Employee_Management.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<int>(
+            migrationBuilder.AddColumn<string>(
                 name: "ID",
                 table: "Employees",
                 type: "int",
