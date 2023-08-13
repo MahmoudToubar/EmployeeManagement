@@ -21,7 +21,7 @@ namespace Employee_Management.Models
 
         [Required]
         [RegularExpression(@"^[0-9]+$", ErrorMessage = "ID must be a number")]
-        public int ID { get; set; }
+        public string ID { get; set; }
 
 
         [Required]
