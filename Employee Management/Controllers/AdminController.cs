@@ -37,7 +37,7 @@ namespace Employee_Management.Controllers
             {
                 EmployeeId = addEmp.EmployeeId,
                 Name = addEmp.Name,
-                ID = addEmp.ID,
+                IDEmployee = addEmp.IDEmployee,
                 NationalId = addEmp.NationalId,
                 DateOfBirth = addEmp.DateOfBirth,
                 Age = addEmp.Age,
@@ -76,7 +76,7 @@ namespace Employee_Management.Controllers
                 {
                     EmployeeId = employees.EmployeeId,
                     Name = employees.Name,
-                    ID = employees.ID,
+                    IDEmployee = employees.IDEmployee,
                     NationalId = employees.NationalId,
                     DateOfBirth = employees.DateOfBirth,
                     Age = employees.Age,
@@ -105,7 +105,7 @@ namespace Employee_Management.Controllers
             {
                 EmployeeId = editEmp.EmployeeId,
                 Name = editEmp.Name,
-                ID = editEmp.ID,
+                IDEmployee = editEmp.IDEmployee,
                 NationalId = editEmp.NationalId,
                 DateOfBirth = editEmp.DateOfBirth,
                 Age = editEmp.Age,
