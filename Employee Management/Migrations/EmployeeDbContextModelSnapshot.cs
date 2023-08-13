@@ -39,7 +39,7 @@ namespace Employee_Management.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<int>("ID")
-                        .HasColumnType("int");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Language")
                         .IsRequired()
