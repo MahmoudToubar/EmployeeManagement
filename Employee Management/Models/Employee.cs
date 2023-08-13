@@ -22,7 +22,7 @@ namespace Employee_Management.Models
         [Required]
         [StringLength(7)]
         [RegularExpression(@"^[0-9]+$", ErrorMessage = "ID must be a number")]
-        public string ID { get; set; }
+        public string IDEmployee { get; set; }
 
 
         [Required]
