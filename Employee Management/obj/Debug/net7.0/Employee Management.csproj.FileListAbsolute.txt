@@ -1,0 +1,81 @@
+D:\Employee Management\Employee Management\obj\Debug\net7.0\Employee Management.csproj.AssemblyReference.cache
+D:\Employee Management\Employee Management\obj\Debug\net7.0\Employee Management.GeneratedMSBuildEditorConfig.editorconfig
+D:\Employee Management\Employee Management\obj\Debug\net7.0\Employee Management.AssemblyInfoInputs.cache
+D:\Employee Management\Employee Management\obj\Debug\net7.0\Employee Management.AssemblyInfo.cs
+D:\Employee Management\Employee Management\obj\Debug\net7.0\Employee Management.csproj.CoreCompileInputs.cache
+D:\Employee Management\Employee Management\obj\Debug\net7.0\Employee Management.MvcApplicationPartsAssemblyInfo.cache
+D:\Employee Management\Employee Management\obj\Debug\net7.0\Employee Management.RazorAssemblyInfo.cache
+D:\Employee Management\Employee Management\obj\Debug\net7.0\Employee Management.RazorAssemblyInfo.cs
+D:\Employee Management\Employee Management\bin\Debug\net7.0\appsettings.Development.json
+D:\Employee Management\Employee Management\bin\Debug\net7.0\appsettings.json
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Employee Management.staticwebassets.runtime.json
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Employee Management.exe
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Employee Management.deps.json
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Employee Management.runtimeconfig.json
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Employee Management.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Employee Management.pdb
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Azure.Core.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Azure.Identity.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Humanizer.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\System.CodeDom.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\System.Memory.Data.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Employee Management\Employee Management\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Employee Management\Employee Management\obj\Debug\net7.0\staticwebassets\msbuild.Employee Management.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Employee Management\Employee Management\obj\Debug\net7.0\staticwebassets\msbuild.build.Employee Management.props
+D:\Employee Management\Employee Management\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Employee Management.props
+D:\Employee Management\Employee Management\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Employee Management.props
+D:\Employee Management\Employee Management\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Employee Management\Employee Management\obj\Debug\net7.0\staticwebassets.build.json
+D:\Employee Management\Employee Management\obj\Debug\net7.0\staticwebassets.development.json
+D:\Employee Management\Employee Management\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Employee Management\Employee Management\obj\Debug\net7.0\scopedcss\bundle\Employee Management.styles.css
+D:\Employee Management\Employee Management\obj\Debug\net7.0\scopedcss\projectbundle\Employee Management.bundle.scp.css
+D:\Employee Management\Employee Management\obj\Debug\net7.0\Employee Management.csproj.CopyComplete
+D:\Employee Management\Employee Management\obj\Debug\net7.0\Employee Management.dll
+D:\Employee Management\Employee Management\obj\Debug\net7.0\refint\Employee Management.dll
+D:\Employee Management\Employee Management\obj\Debug\net7.0\Employee Management.pdb
+D:\Employee Management\Employee Management\obj\Debug\net7.0\Employee Management.genruntimeconfig.cache
+D:\Employee Management\Employee Management\obj\Debug\net7.0\ref\Employee Management.dll

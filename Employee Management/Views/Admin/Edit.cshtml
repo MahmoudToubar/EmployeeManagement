@@ -1,0 +1,115 @@
+﻿@model Employee
+
+
+@{
+}
+
+
+
+
+
+
+<div class="bg-secondary bg-opacity-10 py-2">
+    <div class="container">
+        <h1>Modify Employees Information</h1>
+    </div>
+</div>
+
+
+<div class="container py-5">
+
+    @if (Model != null)
+    {
+        <form method="post">
+
+
+            <div class="mb-3">
+                <input type="hidden" id="name" class="form-control" asp-for="EmployeeId" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" asp-for="Name" />
+                <span class="text-danger" asp-validation-for="Name"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Employee ID</label>
+                <input type="number" class="form-control" id="id" asp-for="ID" />
+                <span class="text-danger" asp-validation-for="ID"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">National Id</label>
+                <input type="text" class="form-control" id="nationalId" asp-for="NationalId" />
+                <span class="text-danger" asp-validation-for="NationalId"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Date Of Birth</label>
+                <input type="date" class="form-control" id="dateOfBirth" asp-for="DateOfBirth" />
+                <span class="text-danger" asp-validation-for="DateOfBirth"></span>
+            </div>
+
+
+            <div class="mb-3">
+                <label class="form-label">Account</label>
+                <select class="form-control" id="account" asp-for="Account">
+                    <option value="TE Data">TE Data</option>
+                    <option value="Telecom Egypt">Telecom Egypt</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Line Of Business</label>
+                <select class="form-control" id="lineOfBusiness" asp-for="LineOfBusiness">
+                    <option value="Basic">Basic</option>
+                    <option value="Technical Support">Technical Support</option>
+                    <option value="Inbound">Inbound</option>
+                    <option value="Outbound">Outbound</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Language</label>
+                <select class="form-control" id="language" asp-for="Language">
+                    <option value="Arabic">Arabic</option>
+                    <option value="English">English</option>
+                    <option value="Italian">Italian</option>
+                    <option value="French">French</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Language Level</label>
+                <select class="form-control" id="languageLevel" asp-for="LanguageLevel">
+                    <option value="A1">A1</option>
+                    <option value="A2">A2</option>
+                    <option value="B1">B1</option>
+                    <option value="B2">B2</option>
+                    <option value="C1">C1</option>
+                    <option value="C2">C2</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+
+                <div class="d-flex">
+                    <button type="submit" class="btn btn-dark">Update</button>
+
+                    <button class="btn btn-danger ms-2" type="submit" asp-area="" asp-controller="Admin" asp-action="Delete">Delete</button>
+                </div>
+            </div>
+
+        </form>
+    }
+    else
+    {
+        <p>No Employees Found!</p>
+    }
+
+
+</div>
+
+
+
