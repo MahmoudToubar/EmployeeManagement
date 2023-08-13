@@ -14,8 +14,8 @@ namespace Employee_Management.Models
 
 
 
-        [Required(ErrorMessage = "Enter Name")]
-        [StringLength(100, ErrorMessage = "Name must be less than 100")]
+        [Required]
+        [RegularExpression(@"^[a-zA-Z\s]+$", ErrorMessage = "Only text characters are allowed.")]
         public string Name { get; set; }
 
 
