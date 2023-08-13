@@ -38,7 +38,7 @@ namespace Employee_Management.Migrations
                     b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ID")
+                    b.Property<int>("IDEmployee")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Language")
