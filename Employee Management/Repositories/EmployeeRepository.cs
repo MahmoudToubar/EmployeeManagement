@@ -53,6 +53,7 @@ namespace Employee_Management.Repositories
             {
                 existingEmp.Name = employees.Name;
                 existingEmp.NationalId = employees.NationalId;
+                existingEmp.ID = employees.ID;
                 existingEmp.DateOfBirth = employees.DateOfBirth;
                 existingEmp.Account = employees.Account;
                 existingEmp.LineOfBusiness = employees.LineOfBusiness;
