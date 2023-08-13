@@ -13,7 +13,7 @@ namespace Employee_Management.Migrations
             migrationBuilder.AddColumn<string>(
                 name: "ID",
                 table: "Employees",
-                type: "int",
+                type: "nvarchar(max)",
                 nullable: false,
                 defaultValue: 0);
         }
