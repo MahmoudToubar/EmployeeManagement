@@ -11,7 +11,7 @@ namespace Employee_Management.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<string>(
-                name: "ID",
+                name: "IDEmployee",
                 table: "Employees",
                 type: "nvarchar(max)",
                 nullable: false,
@@ -22,7 +22,7 @@ namespace Employee_Management.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "ID",
+                name: "IDEmployee",
                 table: "Employees");
         }
     }
