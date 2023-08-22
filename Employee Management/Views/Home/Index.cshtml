@@ -1,4 +1,6 @@
-﻿@model List<Employee>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> signInManager
+@model List<Employee>
 
 
 @{
@@ -11,47 +13,55 @@
     </div>
 </div>
 
-<div class="container py-5">
+@if (signInManager.IsSignedIn(User))
+{
+    <div class="container py-5">
 
-    @if (Model != null && Model.Any())
-    {
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Employee Name</th>
-                    <th>National Id</th>
-                    <th>Employee ID</th>
-                    <th>Age</th>
-                    <th>Account</th>
-                    <th>Line Of Businesse</th>
-                    <th>Language</th>
-                    <th>Language Level</th>
-                </tr>
-            </thead>
-            <tbody>
-
-                @foreach (var emp in Model)
-                {
+        @if (Model != null && Model.Any())
+        {
+            <table class="table">
+                <thead>
                     <tr>
-                        <td>@emp.Name</td>
-                        <td>@emp.NationalId</td>
-                        <td>@emp.IDEmployee</td>
-                        <td>@emp.Age</td>
-                        <td>@emp.Account</td>
-                        <td>@emp.LineOfBusiness</td>
-                        <td>@emp.Language</td>
-                        <td>@emp.LanguageLevel</td>
+                        <th>Employee Name</th>
+                        <th>National Id</th>
+                        <th>Employee ID</th>
+                        <th>Age</th>
+                        <th>Account</th>
+                        <th>Line Of Businesse</th>
+                        <th>Language</th>
+                        <th>Language Level</th>
                     </tr>
-                }
+                </thead>
+                <tbody>
 
-            </tbody>
-        </table>
-    }
+                    @foreach (var emp in Model)
+                    {
+                        <tr>
+                            <td>@emp.Name</td>
+                            <td>@emp.NationalId</td>
+                            <td>@emp.IDEmployee</td>
+                            <td>@emp.Age</td>
+                            <td>@emp.Account</td>
+                            <td>@emp.LineOfBusiness</td>
+                            <td>@emp.Language</td>
+                            <td>@emp.LanguageLevel</td>
+                        </tr>
+                    }
 
-    else
-    {
-        <p>No Employees Found!</p>
-    }
+                </tbody>
+            </table>
+        }
+
+        else
+        {
+            <p>No Employees Found!</p>
+        }
 
 
-</div>
+    </div>
+}
+else
+{
+    <h1 style="color:red ;font-size:50px ;text-align: center;">You must be login to see data</h1>
+}
+
